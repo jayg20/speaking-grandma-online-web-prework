@@ -1,8 +1,21 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma
-  if speak_to_grandma ==  "I LOVE YOU GRANDMA!"
-    print "I LOVE YOU TOO PUMPKIN!"
-  elsif speak_to_grandma == "I LOVE YOU GRANDMA!"
+  if speak_to_grandma ==  "i love you grandma!".upcase
+    print "i love you too pumpkin!".upcase
+  elsif speak_to_grandma == "i love you grandma!".capitalize
+    print "huh?! speak up, sonny!".upcase
+  elsif speak_to_grandma == "Hi, Nana how are you?"
+    print "huh?! speak up, sonny!".upcase
+  elsif speak_to_grandma == "hi, nana how are you?".upcase
+    print "no, not since 1938!".upcase
+  elsif speak_to_grandma == "hi!".capitalize
+    print "huh?! speak up, sonny!".upcase
+  elsif speak_to_grandma == "hi!".upcase
+    print "no, not since 1938!".upcase
+  elsif speak_to_grandma == "what did you eat today?".upcase
+    print "no, not since 1938!".upcase
+  elsif speak_to_grandma == "what?".upcase
+    print "no, not since 1938!".upcase
    
 
 
