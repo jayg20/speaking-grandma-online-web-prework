@@ -1,16 +1,8 @@
 # Write a speak_to_grandma method.
-greeting = "Hi Nana, how are you?"
-first = "Hi!"
-food = "WHAT DID YOU EAT TODAY?"
-confused = "WHAT!?"
-heart = "I LOVE YOU GRANDMA!"
-second_time = "HUH?! SPEAK UP, HONEY!"
-
- def speak_to_grandma
-   if speak_to_grandma == heart
-     print "I LOVE YOU TOO PUMPKIN!"
-   else if speak_to_grandma_ == greeting
-     print "HUH?! SPEAK UP, SONNY!"
+def speak_to_grandma
+  if speak_to_grandma ==  "I LOVE YOU GRANDMA!"
+    print "I LOVE YOU TOO PUMPKIN!"
+  elsif speak_to_grandma == "I LOVE YOU GRANDMA!"
    
 
 
